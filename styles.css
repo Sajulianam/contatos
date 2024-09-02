@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D9B166; 
+    margin: 8px 25% 50px 25%;
+  }
+  
+  header  {
+    display: flexbox;
+    align-items: center;
+    flex-direction: row;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #522629;
+}
+
+.container {
+  display: flex; 
+  align-items: center; 
+  gap: 15px;
+}
+
+.container img,
+.container .texto {
+  width: 50px; 
+}
+
+  #tabela-contatos {
+    border-collapse:separate;
+    width: 100%;
+    margin-bottom: 20px;
+    grid-area:inherit;
+    gap: 25%;
+  }
+  
+  th, td {
+    border: 1px solid #364b43;
+    padding: 8px;
+    text-align: left;
+    font-family: serif;
+    gap: 15px;
+  }
+  
+  th {
+    background-color: #72A693; 
+    color: rgb(12, 49, 73);
+  }
+  
+ 
+  #form-contato {
+    background-color: #8C7B65;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+  }
+  
+
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    gap:initial;
+  }
+  
+  input[type="text"],
+  input[type="tel"] {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color:rgb(50, 58, 63);
+    color: #8C7B65;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: medium;
+    
+  }
+  
+  button:hover {
+    background-color: #680d0d;
+    cursor:grab;
+  }
